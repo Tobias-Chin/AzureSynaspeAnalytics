@@ -14,9 +14,9 @@ FROM
     )
 select subcategory, incidents, safetyrank from subrank where safetyrank<=10;
 ```
-sample of results:
+##sample of results:
 ![Image](https://github.com/user-attachments/assets/9b1fc799-bb65-4b49-a5fb-261796bb691e)
-graph of results:
+##graph of results:
 ![Image](https://github.com/user-attachments/assets/6043595b-5684-4351-aba8-d81f16336256)
 
 
@@ -36,6 +36,6 @@ FROM
     )
 select category,subcategory, incidents, safetyrank from subrank where safetyrank<=3
 ```
-sample of results:![Image](https://github.com/user-attachments/assets/5209c9a2-9e2a-4ea9-9e95-8542f2475978)
-graph of results:
+##sample of results:![Image](https://github.com/user-attachments/assets/5209c9a2-9e2a-4ea9-9e95-8542f2475978)
+##graph of results:
 ![Image](https://github.com/user-attachments/assets/1b39f112-aac8-44d8-9918-7835cbc44cf3)
