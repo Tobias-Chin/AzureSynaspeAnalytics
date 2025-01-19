@@ -2,7 +2,7 @@
 
 ## SQL Query
 
-Here is the SQL query I used:
+Query to find the top 10 most common safety incidents happening in Boston:
 
 ```sql
 With subrank as (
