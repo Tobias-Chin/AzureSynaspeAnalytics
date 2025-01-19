@@ -19,6 +19,8 @@ select subcategory, incidents, safetyrank from subrank where safetyrank<=10;
 ## graph of results:
 ![Image](https://github.com/user-attachments/assets/6043595b-5684-4351-aba8-d81f16336256)
 
+As we can see it is clear parking enforcment and street cleaning remain the top issues surrounding Boston Safety.
+
 
 ## To go further in detail I wanted to find the top 3 subcategory incidents occuring per categroy:
 
