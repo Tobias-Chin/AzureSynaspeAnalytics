@@ -1,8 +1,6 @@
 # SQL Code and Output
 
-## SQL Query
-
-Query to find the top 10 most common safety incidents happening in Boston:
+## Query to find the top 10 most common safety incidents happening in Boston:
 
 ```sql
 With subrank as (
@@ -16,12 +14,15 @@ FROM
     )
 select subcategory, incidents, safetyrank from subrank where safetyrank<=10;
 ```
+sample of results:
 ![Image](https://github.com/user-attachments/assets/9b1fc799-bb65-4b49-a5fb-261796bb691e)
+graph of results:
+![Image](https://github.com/user-attachments/assets/6043595b-5684-4351-aba8-d81f16336256)
 
 
-## SQL Query
+## To go further in detail I wanted to find the top 3 subcategory incidents occuring per categroy:
 
-To go further in detail I wanted to find the top 3 subcategory incidents occuring per categroy:
+
 
 ```sql
 With subrank as (
